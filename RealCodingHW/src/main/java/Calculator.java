@@ -16,6 +16,7 @@ public class Calculator {
     public int getYen() { return this.yen; }
 
     public void wonToDollar() { dollar = getWon() / 1200; }
+    public void wonToPound() { pound = getWon() / 1500; }
 
     public int unSignedSub(int a, int b) {
         if(a >= b) {

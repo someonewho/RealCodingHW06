@@ -38,6 +38,11 @@ public class CalculatorTest {
         calculator.wonToDollar();
         assertThat(calculator.getDollar(), equalTo(calculator.getWon() / 1200) );
     }
+    @Test
+    public void won_Pound(){
+        calculator.wonToPound();
+        assertThat(calculator.getPound(), Matchers.is(calculator.getWon() / 1500) );
+    }
 
 
     //빼기(음수가 나오지 않는 빼기 임으로 결과 값이 0보다 큰지 확인)
