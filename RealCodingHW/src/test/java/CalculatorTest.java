@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -29,5 +30,14 @@ public class CalculatorTest {
         verify(calculator, atLeastOnce()).getResult();
 
     }
+    //============================================================================
+    @Test
+    public void won_Dollar(){  // 원은 몇 달러인가?
+        calculator.wonToDollar();
+        assertThat(calculator.getDollar(), equalTo(calculator.getWon() / 1200) );
+    }
+
+
+
 
 }
