@@ -16,5 +16,11 @@ public class CalculatorTest {
         calculator.getResult();
         assertThat(calculator.getResult(), is(0));
     }
+    @Test
+    public void caladd()    {
+        calculator.add(2500, 500);
+        assertThat(calculator.getResult(), is(3000));
+
+    }
 
 }

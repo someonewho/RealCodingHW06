@@ -3,6 +3,9 @@ public class Calculator {
     public int getResult()  {
         return result;
     }
-    
+    public void add(int a, int b) {
+        this.result = a+b;
+    }
+
 
 }
