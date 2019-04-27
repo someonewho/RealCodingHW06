@@ -74,6 +74,13 @@ public class CalculatorTest {
         calculator.sub(3000, 5000);
         assertEquals(-2000, calculator.getResult());
     }
+    //곱하기
+    @Test
+    public void checkMul(){
+        Calculator calculator = new Calculator();
+        calculator.mul(3000, 5000);
+        assertEquals(15000000, calculator.getResult());
+    }
 
 
 }
