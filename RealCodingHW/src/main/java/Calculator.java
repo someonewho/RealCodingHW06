@@ -43,6 +43,9 @@ public class Calculator {
         int quo = divQuo(a, b);
         return result = (a- (quo * b));
     }
+    public double circle(int a){
+        return a*a*3.14;
+    }
 
 
 }

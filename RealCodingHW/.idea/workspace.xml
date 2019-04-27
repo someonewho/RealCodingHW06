@@ -6,11 +6,7 @@
       <change beforePath="$PROJECT_DIR$/../../RealCodingHW/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RealCodingHW/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RealCodingHW/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RealCodingHW/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RealCodingHW/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RealCodingHW/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealCodingHW.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tddpractice/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tddpractice/src/main/java/Account.java" afterDir="false" />
@@ -35,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="295">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#82#83#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
@@ -46,6 +42,10 @@
                 <element signature="e#915#916#0" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
                 <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,12 +54,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="143">
+              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,10 +85,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -146,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,6 +253,7 @@
       <updated>1556341901911</updated>
       <workItem from="1556341914500" duration="3253000" />
       <workItem from="1556346287532" duration="364000" />
+      <workItem from="1556353761458" duration="53000" />
     </task>
     <servers />
   </component>
@@ -291,13 +290,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4147000" />
+    <option name="totallyTimeSpent" value="4506000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="870" extended-state="0" />
+    <frame x="-7" y="0" width="782" height="871" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2926491" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30193907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +313,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32971507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="295">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#82#83#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
@@ -352,18 +351,20 @@
             <element signature="e#915#916#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
             <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="143">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>

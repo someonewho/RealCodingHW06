@@ -97,5 +97,13 @@ public class CalculatorTest {
         calculator.divRmi(64, 15);
         assertEquals(4, calculator.getResult());
     }
+    
+    @Test
+    public void conform(){
+        Calculator cal = mock(Calculator.class);
+        when(cal.circle(3)).thenReturn(28.26);
+        assertThat(cal.circle(3), is(28.26));
+    }
+
 
 }
