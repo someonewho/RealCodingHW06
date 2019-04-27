@@ -22,5 +22,12 @@ public class CalculatorTest {
         assertThat(calculator.getResult(), is(3000));
 
     }
+    @Test
+    public void callingResultAtLeastOne()    {
+        Calculator calculator = mock(Calculator.class);
+        calculator.getResult();
+        verify(calculator, atLeastOnce()).getResult();
+
+    }
 
 }
