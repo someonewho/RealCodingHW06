@@ -82,5 +82,20 @@ public class CalculatorTest {
         assertEquals(15000000, calculator.getResult());
     }
 
+    //나누기(몫만 return)
+    @Test
+    public void checkQuitient(){
+        Calculator calculator = new Calculator();
+        calculator.divQuo(64, 15);
+        assertEquals(4, calculator.getResult());
+    }
+
+    //나누기(나머지만 return)
+    @Test
+    public void cheekReminder(){
+        Calculator calculator = new Calculator();
+        calculator.divRmi(64, 15);
+        assertEquals(4, calculator.getResult());
+    }
 
 }

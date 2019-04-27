@@ -35,6 +35,14 @@ public class Calculator {
         return result = a * b;
     }
 
+    public int divQuo(int a, int b) {
+        return result = ((int) a/b);
+    }
+
+    public int divRmi(int a, int b) {
+        int quo = divQuo(a, b);
+        return result = (a- (quo * b));
+    }
 
 
 }
