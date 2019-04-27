@@ -43,12 +43,16 @@ public class Calculator {
         int quo = divQuo(a, b);
         return result = (a- (quo * b));
     }
+
+
     public double circle(int a){
         return a*a*3.14;
     }
     public int square(int a){
         return a*a;
     }
-
+    public double triangle(int a, int b){
+        return a*b/2;
+    }
 
 }
