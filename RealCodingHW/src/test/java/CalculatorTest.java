@@ -44,5 +44,10 @@ public class CalculatorTest {
         assertThat(calculator.getPound(), Matchers.is(calculator.getWon() / 1500) );
     }
 
+    @Test
+    public void won_Yen(){
+        calculator.wonToYen();
+        assertEquals(calculator.getYen(),(calculator.getWon() / 10));
+    }
 
 }
