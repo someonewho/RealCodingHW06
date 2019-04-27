@@ -46,6 +46,9 @@ public class Calculator {
     public double circle(int a){
         return a*a*3.14;
     }
+    public int square(int a){
+        return a*a;
+    }
 
 
 }
