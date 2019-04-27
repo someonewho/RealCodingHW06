@@ -7,7 +7,16 @@ public class Calculator {
         this.result = a+b;
     }
 //==================================  Money  ========================================
-    
+
+    public int won,dollar,pound,yen ;
+
+    public int getWon() { return this.won; }
+    public int getDollar(){ return this.dollar; }
+    public int getPound() { return this.pound; }
+    public int getYen() { return this.yen; }
+
+    public void wonToDollar() { dollar = getWon() / 1200; }
+
     public int unSignedSub(int a, int b) {
         if(a >= b) {
             return result = a - b;

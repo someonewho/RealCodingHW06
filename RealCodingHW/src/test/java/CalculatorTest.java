@@ -33,6 +33,11 @@ public class CalculatorTest {
 
     }
     //==================================   Money  ==========================================
+    @Test
+    public void won_Dollar(){  // 원은 몇 달러인가?
+        calculator.wonToDollar();
+        assertThat(calculator.getDollar(), equalTo(calculator.getWon() / 1200) );
+    }
 
 
     //빼기(음수가 나오지 않는 빼기 임으로 결과 값이 0보다 큰지 확인)
